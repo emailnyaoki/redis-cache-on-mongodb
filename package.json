@@ -1,0 +1,24 @@
+{
+  "name": "redis-cache",
+  "version": "1.0.0",
+  "description": "lab on redis cache using mongodb as primary database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "redis",
+    "cache",
+    "mongodb"
+  ],
+  "author": "oki nandoko rakhim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "redis": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
